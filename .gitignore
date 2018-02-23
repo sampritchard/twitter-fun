@@ -1,0 +1,7 @@
+#Package Locks
+package-lock.json
+
+#Configs
+config.js
+
+node_modules

@@ -1,0 +1,25 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "now -e CONSUMER_KEY=@consumer-key -e CONSUMER_SECRET=@consumer-secret -e ACCESS_TOKEN=@access-token-key  -e ACCESS_TOKEN_SECRET=@access-token-secret",
+    "test": "node mocha"
+  },
+  "now": {
+    "alias": "my-twitter-bot",
+    "files": [
+      "config.js",
+      "index.js"
+    ]
+  },
+  "author": "Sam Pritchard",
+  "license": "ISC",
+  "dependencies": {
+    "now": "^9.3.3",
+    "twitter": "^1.7.1",
+    "yarn": "^1.3.2"
+  }
+}
