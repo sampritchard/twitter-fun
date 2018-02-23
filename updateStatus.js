@@ -14,7 +14,6 @@ const updateStatus = () => {
     T.post('statuses/update', {status: randomQuote()}, function(err, tweet, response) {
     if(err) {
         console.log(err);
-        // runs the function again if an error appears
         updateStatus();
         }
     else{
