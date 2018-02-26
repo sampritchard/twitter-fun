@@ -1,5 +1,5 @@
 ### Twitter Bot
-A bot that creates an Twitter update based on selecting a string from an array.
+A bot that creates a Twitter update based on selecting a string from an array.
 
 Currently, this is setup locally, so posts are not automated every 24 hours (which will be the end goal).
 
